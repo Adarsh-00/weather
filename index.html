@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="search" id="city" placeholder="Enter Your City To Check Weather">
+        <button class="btn" id="search">🔍</button>
+        <h1>weather for the city: <span id="newCity"></span></h1>
+        <div class="card-1">
+            <img src="temp.png" alt="loading...">
+            <ul>
+                <li>temprature is: <span id="temp"></span></li>
+                <li>max temprature is: <span id="max_temp"></span></li>
+                <li>min temparture is: <span id="min_temp"></span></li>
+                
+            </ul>
+        </div>
+        <div class="card-2">
+
+            <img src="windy.png" alt="loading...">
+            <ul>
+                <li>Cloud PCT is: <span id="cloud_pct"></span></li>
+                <li>It feels like: <span id="feels_like"></span></li>
+                <li>Wind Speed is: <span id="wind_speed"></span></li>
+                <li>Wind Degrees is: <span id="wind_degrees"></span></li>
+            </ul>
+        </div>
+        <div class="card-3">
+            <img src="sun.png" alt="loading...">
+            <ul>
+                <li>Sunrise is: <span id="sunrise"></span></li>
+                <li>Sunset is: <span id="sunset"></span></li>
+                <li>Humidity is: <span id="humidity"></span></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
